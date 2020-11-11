@@ -26,6 +26,16 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
+    <script>
+        function sendMail() {
+            var link = "mailto:me@example.com" +
+                "?cc=myCCaddress@example.com" +
+                "&subject=" + encodeURIComponent("This is my subject") +
+                "&body=" + encodeURIComponent(document.getElementById('myText').value);
+
+            window.location.href = link;
+        }
+    </script>
 </head>
 
 <body>
@@ -61,57 +71,51 @@
             </form>
         </div>
     </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Issue Fluig</h1>
+            <p class="lead">Este são os exemplos de e-mail para problemas do Fluig</p>
+            <hr class="my-4">
+            <p></p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+        </div>
+    </div>
 
-    <main role="main">
 
-        <!---->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h3 class="display-5">Associação Lar São Francisco</h3>
-                <p>Abertura de Problemas Por E-mail</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Envie</a></p>
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Protheus TOTVS</h2>
+                <p>
+
+                </p>
+                <p><a class="btn btn-secondary" href="#" role="button">Issue Protheus</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Fluig TOTVS</h2>
+                <p>
+                </p>
+                <p><a class="btn btn-secondary" href="#" role="button">Issue Fluig</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Wareline</h2>
+                <p></p>
+                <p><a class="btn btn-secondary" href="#" role="button">Issue Wareline</a></p>
             </div>
         </div>
 
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>Protheus TOTVS</h2>
-                    <p>
+        <hr>
+        </main>
 
-                    </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">Issue Protheus</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Fluig TOTVS</h2>
-                    <p>
-
-                    </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">Issue Fluig</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Wareline</h2>
-                    <p></p>
-                    <p><a class="btn btn-secondary" href="#" role="button">Issue Wareline</a></p>
-                </div>
-            </div>
-
-            <hr>
-
-        </div>
-        <!-- /container -->
-
-    </main>
-
-    <footer class="container">
-        <p>&copy; Associação Lar São Francisco 1985-2020</p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')
-    </script>
-    <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+        <footer class="container">
+            <p>&copy; Associação Lar São Francisco 1985-2020</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script>
+            window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')
+        </script>
+        <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
 </body>
 
 </html>
