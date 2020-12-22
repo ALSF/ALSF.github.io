@@ -1,16 +1,16 @@
 [
   {
-    "label": "Projects",
+    "label": "Projetos",
     "link": {
       "href": "#projects",
-      "title": "View a list of all our projects",
+      "title": "Veja uma lista de todos os nossos projetos",
       "external": false
     }
   }, {
-    "label": "Contribute",
+    "label": "Contribuir",
     "link": {
       "href": "#contribute",
-      "title": "Learn more about contributing to Red Hat's projects.",
+      "title": "Saiba mais sobre como contribuir para os projetos do Lar São Francisco.",
       "external": false
     }
   }, {
@@ -21,7 +21,7 @@
       "external": true
     }
   }, {
-    "label": "About",
+    "label": "Sobre",
     "link": {
       "href": "https://www.redhat.com/en/about",
       "title": "Learn more about Red Hat.",
